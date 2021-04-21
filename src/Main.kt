@@ -31,7 +31,7 @@ import java.util.concurrent.atomic.AtomicInteger
     }
 
     fun main() {
-        val keys = intArrayOf(15, 10, 20, 8, 12, 16, 25)
+        val keys = intArrayOf(10,20,30,40,50)
         var root: Node? = null
         for (key in keys) {
             root = insert(root, key)
